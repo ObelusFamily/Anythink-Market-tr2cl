@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+- Ensure docker is installed and running `docker -v && docker-compose -v`
+- Navigate to the project directory in a terminal window and run `docker-compose up`
+- Wait for everything to spin up
+- Once everything is running, try hitting the backend `http://localhost:3000/api/ping`
+- Then the frontend `http://localhost:3001/register`
+- If all's going well you should be able to create a user profile
